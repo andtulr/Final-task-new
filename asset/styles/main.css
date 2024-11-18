@@ -1,0 +1,192 @@
+
+html {
+    width: 100%;
+}
+
+html *, html ::after, html ::before {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+body {
+    width: 100%;
+}
+h2 {
+    font-family: "Tahoma";
+    font-size: 1.3em;
+    color: #E8A970; 
+}
+
+.page__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fbf1e8;
+}
+
+
+.page__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #321D26;
+    height: 10%;
+}
+.page__header-logo {
+
+}
+.page__header-nav {
+
+}
+.page__header-logoNumber {
+
+}
+
+.header-nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.page__main{
+    height: 60%;
+    margin: 0 7%;
+    background-image: linear-gradient(to bottom, #2C2126, #6E4D5C);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page__main-upper {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-upper-me {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: 2%;
+   
+
+}
+.main-upper-title {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1em solid #FABF89;
+    border-radius: 5%;
+    margin-right: 1%;
+    
+
+}
+.upper-title-first {
+    font-family: "Georgia";
+    font-size: 2.5em;
+    font-weight:bold;
+    color: #E8A970;
+    text-align:left;
+    
+}
+.upper-title-second {
+    font-family: "Georgia";
+    font-size: 3em;
+    font-weight: bold;
+    color: #E5954D;
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 15px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+.page__main-lower {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-lower-meText {
+    width: 30%;
+    margin-left: 1%;
+}
+.lower-meText {
+    font-family: "Georgia";
+    font-size: 1.2em;
+    color: #ebc9d8;    
+}
+.main-lower-projects{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lower-projects-samples {
+    display: flex;
+    flex-direction: column;
+    
+}
+.projects-samples1 {
+    position: relative;
+    left: 70%;
+}
+.projects-samples2 {
+    position: relative;
+    bottom: 10%;
+}
+.projects-samples3 {
+    position: relative;
+    left: 70%;
+    bottom: 20%;
+    z-index: 1;
+}
+.projects-samples4 {
+    position: relative;
+    bottom: 30%;
+}
+.main-lower-skills{
+    width: 20%;
+}
+.lower-skills {
+    font-family: "Georgia";
+    font-size: 1.2em;
+    color: #ebc9d8;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page__footer {
+    height: 30%;
+    background-color: #321D26;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.page__footer-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+}
+
+.contact-soc {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
